@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - MovingObstacle
+  - Target
+  - Shredder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ball
+  - Obstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Target
+    uniqueID: 4210499999
+    locked: 0
+  - name: Ball
+    uniqueID: 2950562345
+    locked: 0
+  - name: FixedTargetObstacle
+    uniqueID: 1427831069
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3991830781
+    locked: 0
+  - name: Wall
+    uniqueID: 2747071497
+    locked: 0
+  - name: Text
+    uniqueID: 2154456037
+    locked: 0

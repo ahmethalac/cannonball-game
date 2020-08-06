@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79466ed343ed3e45a92d91c7dff7c25, type: 3}
+  m_Name: Level11
+  m_EditorClassIdentifier: 
+  dependsOnPrevBallCount: 1
+  solidLeftWall: 1
+  solidLeftWallConfig: {fileID: 11400000, guid: a01a72127c65c1246be20083d56b3034,
+    type: 2}
+  solidRightWall: 1
+  solidRightWallConfig: {fileID: 11400000, guid: a01a72127c65c1246be20083d56b3034,
+    type: 2}
+  leftWallConfigs:
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  rightWallConfigs:
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  obstacleConfigs:
+  - {fileID: 11400000, guid: bd7f9b6a821f11741a0391058659fa28, type: 2}
+  - {fileID: 11400000, guid: 0af30c3090cb12b478c4b25e067ca3ba, type: 2}
+  - {fileID: 11400000, guid: 0af30c3090cb12b478c4b25e067ca3ba, type: 2}
+  - {fileID: 11400000, guid: efc1965f5423feb46bea10238e1fb81e, type: 2}
+  - {fileID: 11400000, guid: 58605700fdc5b7d45bfa00b7682190b6, type: 2}
+  - {fileID: 11400000, guid: efc1965f5423feb46bea10238e1fb81e, type: 2}
+  obstaclePositions:
+  - {x: 2.86, y: -1.61, z: 0}
+  - {x: 0.17, y: 4.5, z: 0}
+  - {x: -2.44, y: -4.42, z: 0}
+  - {x: -2.75, y: 3, z: 0}
+  - {x: -2.75, y: -1.22, z: 0}
+  - {x: 2.85, y: 4.51, z: 0}
+  obstacleScales:
+  - {x: 0.5, y: 1, z: 0}
+  - {x: 0.5, y: 1, z: 0}
+  - {x: 0.5, y: 1, z: 0}
+  - {x: 1, y: 0.5, z: 0}
+  - {x: 1, y: 0.5, z: 0}
+  - {x: 1, y: 0.5, z: 0}
+  obstacleRotations:
+  - {x: 0, y: 0, z: -38}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: -34}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  breakCount: 010000000000000000000000010000000000000001000000
+  cannonPosition: {x: 2, y: -8, z: 0}
+  correctCannonAngles: []
+  angleTolerance: 0
+  targetPosition: {x: 0, y: 6, z: 0}
+  magneticFieldPositions: []
+  magneticFieldScales: []
+  magneticFieldPowers: []
+  buttonPosition: {x: -3.3, y: -7}
+  boosts: 
+  boostPositions: []

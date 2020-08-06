@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79466ed343ed3e45a92d91c7dff7c25, type: 3}
+  m_Name: Level13
+  m_EditorClassIdentifier: 
+  dependsOnPrevBallCount: 0
+  solidLeftWall: 1
+  solidLeftWallConfig: {fileID: 11400000, guid: a01a72127c65c1246be20083d56b3034,
+    type: 2}
+  solidRightWall: 1
+  solidRightWallConfig: {fileID: 11400000, guid: a01a72127c65c1246be20083d56b3034,
+    type: 2}
+  leftWallConfigs:
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  rightWallConfigs:
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  - {fileID: 11400000, guid: 372f73256a3c3c64d8c6817027014b61, type: 2}
+  obstacleConfigs:
+  - {fileID: 11400000, guid: 0af30c3090cb12b478c4b25e067ca3ba, type: 2}
+  - {fileID: 11400000, guid: 0af30c3090cb12b478c4b25e067ca3ba, type: 2}
+  obstaclePositions:
+  - {x: 1.45, y: -3.27, z: 0}
+  - {x: -1.25, y: 2.54, z: 0}
+  obstacleScales:
+  - {x: 2.8, y: 1, z: 0}
+  - {x: 3, y: 1, z: 0}
+  obstacleRotations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  breakCount: 0000000000000000
+  cannonPosition: {x: 0, y: -8, z: 0}
+  correctCannonAngles: []
+  angleTolerance: 1
+  targetPosition: {x: 3, y: 5, z: 0}
+  magneticFieldPositions:
+  - {x: -2, y: -3.27, z: 0}
+  - {x: 2.34, y: 2.54, z: 0}
+  magneticFieldScales:
+  - 1
+  - 1
+  magneticFieldPowers:
+  - 3.5
+  - 2
+  boosts: 00000000
+  boostPositions:
+  - {x: -2.5, y: 1.5, z: 0}
